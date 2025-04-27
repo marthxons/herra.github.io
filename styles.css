@@ -191,7 +191,7 @@ nav a:hover{
 	font-size: 20px;
 }
 .photo-gallery {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Responsive grid */
     gap: 20px; /* Space between grid items */
     margin-top: 40px;
