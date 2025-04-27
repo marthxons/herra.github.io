@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Ponomar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Lexend+Deca:wght@100..900&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;   
+	
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; 
+	text-align: center;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background:#292928;
+	position: fixed;
+	top:0;
+	z-index: 1000
+	
+}
+.logo{
+	width: 30%;
+	float:left;
+	text-align: left;
+	line-height: 100px;
+}
+.logo a{
+	text-decoration: none;
+	display: inline-block;
+    height: 100%;
+}
+.logo img{
+	height:80px;
+	vertical-align: middle;
+}
+nav{
+	float: right;
+	line-height: 100px;
+}
+nav a{
+	text-decoration: none;
+	font-family: 'Lexend Deca';
+	letter-spacing: 1px;
+	font-size: 17px;
+	color: white;
+	padding: 36px 10px;
+	margin: 0 1px;
+	font-weight: 500;
+	
+}
+nav a:hover{
+	background: #fff;
+	color: #130f40;
+}
+
+.lang-menu {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    font-family: 'Lexend Deca';
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+	z-index: 100;
+	height: 100px;
+	line-height: 100px;
+	
+}
+
+.lang-menu .selected-lang {
+    padding: 0 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+	line-height: 100px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.lang-menu ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background-color: white;
+	border: 1px solid #f8f8f8;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	z-index: 101;
+  }
+
+.lang-menu ul li {
+    text-align: left;
+}
+
+.lang-menu ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #292928;
+    font-size: 15px;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
+.box-area{
+	flex:1;
+
+}
+
+.banner-area{
+	background-image: url(bildes/bilde1.png);
+	background-size: cover;
+	background-position:center center;
+	top:70px;
+	height: calc(100vh - 100px);
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.banner-area:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #5a5a5a;
+	opacity: .7;
+	z-index: 1;
+}
+.banner-area h2{
+	padding-top: 8%;
+	font-size: 80px;
+	color: rgb(255, 255, 255);
+	z-index: 2;
+	position:relative;
+	text-align: center;
+	
+}
+.banner-image { 
+
+	position: absolute;
+    top: 6%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 600px;
+    height: 600px;
+    z-index: 5; 
+}
+.content-area{
+	width: 100%;
+	min-height: calc(100vh - 100px - 80px);
+	position: relative;
+	background-color: white;
+	padding-top: 20px;
+	z-index: 2;
+}
+.content-area h2{
+	font-family: 'Bona nova';
+	font-size: 60px;
+	margin: 0;
+	padding-top: 30px;
+	letter-spacing: 4px;
+}
+.content-area p{
+	padding: 2% 0;
+	line-height: 30px;
+	text-align: justify;
+}
+.subscribe-section {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subscribe-section h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 28px;
+    color: #292928;
+    margin-bottom: 10px;
+}
+
+.subscribe-section p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+	
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.subscribe-form input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    background-color: #292928;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: #130f40;
+}
+footer {
+    background-color: #292928;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    z-index: 10;
+	position:relative;
+	bottom:0;
+
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+
