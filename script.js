@@ -2,6 +2,7 @@ const translations = {
   lv: {
     heading: "SIEVIŠĶĪBA SLĒPJAS TEVĪ",
   heading3:"Par mums",
+    heading4:"Kolekcija",
     nav_about: "Par mums",
     nav_collection: "Kolekcija",
     nav_video: "Video",
@@ -15,6 +16,7 @@ const translations = {
   rus: {
     heading: "Женственность скрывается в тебе",
    heading3:"О нас",
+    heading4:"Коллекция",
     nav_about: "О нас",
     nav_collection: "Коллекция",
     nav_video: "Видео",
