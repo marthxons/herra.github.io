@@ -1,9 +1,10 @@
 const translations = {
   lv: {
     heading: "SIEVIŠĶĪBA SLĒPJAS TEVĪ",
-  heading3:"Par mums",
-    heading4:"Kolekcija",
-    nav_about: "Par mums",
+   heading3:"Par mums",
+   heading4:"Kolekcija",
+   text:"Mūsu zīmola identitāte ir sievišķība, mēs ražojam kvalitatīvus apģērbus, ko var atļauties katrs, bet liekam tam izskatīties kā luksa precei, akcentējot uz sievietes skaistākajām iezīmēm, lai izceltu tās skaistumu. Ražoti tiek vairāki apģērba gabali, sākot no kleitām, svārkiem, biksēm, līdz ar apaviem, blūzēm, krekliem un citiem augšējā seguma apģērbiem. Mūsu mērķis ir palīdzēt sievietēm vairāk iepazīt sevi, un nevis slēpt to, kam trūkst pārliecība, bet iejusties savā daiļākajā lomā un iziet no mājas ar paaugstinātu pašpārliecību. Katra sieviete ir spējīga kam vairāk, katrā sievietē ir milzīgs potenciāls un vara, tāpēc mēs esam šeit, lai to atrastu. Atrodi sev piemērotāko, ērtāko, skaistāko apģērbu, ar mums, ar HERRA. Sievišķība slēpjas Tevī!",
+   nav_about: "Par mums",
     nav_collection: "Kolekcija",
     nav_video: "Video",
     nav_materials:"Materiāli",
@@ -16,7 +17,8 @@ const translations = {
   rus: {
     heading: "Женственность скрывается в тебе",
    heading3:"О нас",
-    heading4:"Коллекция",
+   heading4:"Коллекция",
+  text:"Наш фирменный стиль – женственность, мы производим качественную одежду, которую может себе позволить каждая, но делаем ее похожей на предмет роскоши, подчеркивая самые красивые черты женщины, подчеркивая ее красоту. Выпускается несколько предметов одежды: от платьев, юбок, брюк до туфель, блузок, рубашек и другой верхней одежды. Наша цель – помочь женщинам лучше узнать себя, и не скрывать себя, а вжился в самую прекрасную роль и выйти из дома с повышенной уверенностью в себе. Каждая женщина способна на большее, каждая женщина обладает огромным потенциалом и силой, поэтому мы здесь, чтобы ее найти. Найдите для себя самую подходящую, самую удобную, самую красивую одежду у нас HERRA. Женственность скрыта в тебе!",
     nav_about: "О нас",
     nav_collection: "Коллекция",
     nav_video: "Видео",
