@@ -190,6 +190,48 @@ nav a:hover{
 	font-family: Lexend Deca;
 	font-size: 20px;
 }
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    margin-top: 40px;
+    justify-items: center; /* Center items horizontally */
+}
+@media (max-width: 1024px) {
+    .photo-gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 photos per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 photos per row on small screens */
+    }
+}
+@media (max-width: 480px) {
+    .photo-gallery {
+        grid-template-columns: 1fr; /* 1 photo per row on very small screens */
+    }
+}
+
+.photo-item {
+    text-align: center;
+}
+
+.photo-item img {
+    width: 100%;
+    max-width: 300px; /* Limit the maximum width of images */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item p {
+    margin-top: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
 .subscribe-section {
     background-color: #f8f8f8;
     padding: 40px 20px;
